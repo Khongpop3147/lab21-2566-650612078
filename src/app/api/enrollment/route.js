@@ -107,7 +107,6 @@ export const POST = async (request) => {
       },
     },
   });
-
   if (enrollCheck) {
     return NextResponse.json(
       {
